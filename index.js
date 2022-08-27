@@ -1,5 +1,5 @@
 const api = require('./api/index.js');
 
 api.listen({
-  port: 3000
+  port: process.env.PORT || 3000
 });
