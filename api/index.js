@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
         guess: value
       })
 
-      const url = "http://localhost:3000/codebreaker"
+      const url = "https://heroku-app-code-breaker.herokuapp.com"
       let xhr = new XMLHttpRequest()
  
       xhr.open('POST', url, true)
